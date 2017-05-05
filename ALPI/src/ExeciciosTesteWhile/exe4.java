@@ -1,4 +1,4 @@
-package execicios;
+package ExeciciosTesteWhile;
 
 import java.util.Scanner;
 /*Use o laço while para ler 06 valores do usuário. Ao final do laço, imprimir:
@@ -8,16 +8,14 @@ import java.util.Scanner;
 public class exe4 {
     public static void main(String[] args) {
         Scanner as = new Scanner(System.in);
-        int n1,n2,n3,n4,n5,n6,soma,media,i = 0;
-        n1 = as.nextInt();
-        n2 = as.nextInt();
-        n3 = as.nextInt();
-        n4 = as.nextInt();
-        n5 = as.nextInt();
-        n6 = as.nextInt();
+        int n,soma = 0,media,i = 0;
+        System.out.println("digite um numero: ");
 
         while ( i <= 6){
-            soma = n1 + n2 + n3 + n4 + n5 + n6;
+                            
+            System.out.println("digite um numero: ");
+            n = as.nextInt();
+            soma = soma + n;
             System.out.println("soma: " + soma);
             
         }

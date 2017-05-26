@@ -28,16 +28,13 @@ static int somatoria (){
     return somaN;
     
 }  
- static int fatorial (int y){
-    int fatorialN = 0,mult=0,soma = 0;
+    static int fatorial (int n){
+    int fatorialN = 1;
     System.out.print("Digite um numero: ");
-    int n = somatoria(y);
-        y = n;
-    if (y >= 0){
-        for (int i = 1; i <= y;i = i++){
-        mult = i*(y-1);
-        soma = soma + mult;
-        fatorialN = soma;
+    n = imput.nextInt();
+    if (n >= 0){
+        for (int i = 1; i <= n;i = i++){
+        fatorialN = fatorialN * i;
         i = i+1;
     }
     }

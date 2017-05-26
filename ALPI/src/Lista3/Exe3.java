@@ -9,14 +9,12 @@ Exemplo:​ se N for 5, a função deve retornar 120, que é a multiplicação d
 */
 static Scanner imput = new Scanner (System.in);
     static int fatorial (int n){
-    int fatorialN = 0,mult=0,soma = 0;
+    int fatorialN = 1;
     System.out.print("Digite um numero: ");
     n = imput.nextInt();
     if (n >= 0){
         for (int i = 1; i <= n;i = i++){
-        mult = i*(n-1);
-        soma = soma + mult;
-        fatorialN = soma;
+        fatorialN = fatorialN * i;
         i = i+1;
     }
     }

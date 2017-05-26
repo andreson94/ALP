@@ -1,3 +1,5 @@
+package ExerciciosFuncao;
+
 
 
 import java.util.Scanner;

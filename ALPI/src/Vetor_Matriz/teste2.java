@@ -21,7 +21,7 @@ public class teste2 {
     static int[] preencheVetor (int[] v){
         System.out.println("preenchimento do vetor");
         int n = entradadeDados(0);
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < v.length; i++){
             System.out.print("Digite um numero: ");
             v[i] = imput.nextInt();
             
@@ -59,9 +59,8 @@ public class teste2 {
         return menor;
     } 
          
-    static int fim (int[] v,int menor,int maior,int soma){
+    static void fim (int[] v,int menor,int maior,int soma){
      
-        int resultado;
         
               for (int i = 0; i < v.length; i++){
                 System.out.print("v[" + i + "]: " + v[i]);
@@ -75,12 +74,11 @@ public class teste2 {
                 
             }
             System.out.println("A soma é: " + soma);
-        return resultado;
     } 
           
     public static void main(String[] args) {
         
-      
+     
             
     }
 }

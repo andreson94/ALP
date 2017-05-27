@@ -7,54 +7,61 @@ public class Exe4 {
 números positivos pela soma dos n primeiros números positivos.
 Em outras palavras, você deve dividir o fatorial pela somatoria do número. Obrigatório utilizar as
 funções elaboradas nos exercícios 2 e 3*/
+    
     static Scanner imput = new Scanner(System.in); 
-    static int entradadeDados (int x){
-        System.out.print("Digite um numero: ");
-        x = imput.nextInt();
-        return x;
-        
-    }
-static int somatoria (){
+
+    static int somatoria(int n){
     int somaN = 0;
-    x = imput.nextInt();
-    for( int i = 0; i <= x;i = i++){
-    if (x > 0){
-        somaN = x + i;
+    
+    System.out.print("Digite um numero: ");
+
+    n = imput.nextInt();
+        
+    for( int i = 0; i <= n;i = i++){
+    
+        if (n > 0){
+        somaN = n + i;
         i = i+1;
-    }else{
+    
+        }else{
         System.out.println("Numero Invalido");
+        }
     }
-    }
+    
     return somaN;
     
 }  
     static int fatorial (int n){
-    int fatorialN = 1;
-    System.out.print("Digite um numero: ");
-    n = imput.nextInt();
-    if (n >= 0){
+    
+        int fatorialN = 1;
+    
+        if (n >= 0){
         for (int i = 1; i <= n;i = i++){
         fatorialN = fatorialN * i;
         i = i+1;
-    }
+    
+        }
     }
     return fatorialN;
     
 } 
- static int divisao(int x,int y){
-        int resultado = 0;
-        resultado = x/y;
-        return resultado;
+ static int divisao(int fatorialN,int somaN){
+        
+    int resultado = fatorialN/somaN;
+    
+    return resultado;
     
      
  }
  static void imprimir(int resultado){
-     System.out.println("resultado: " +resultado);
+     System.out.println("resultado: " + resultado);
  }
     public static void main(String[] args) {
-        int x = somatoria(0);
-        int y = fatorial(x);
-        int r = divisao(x, y);
-        imprimir(r);
+        int somaN = somatoria(0);
+        int fatorialN = fatorial(somaN);
+        int resultado = divisao(fatorialN, somaN);
+        System.out.println("fatorialde numeros positivos " + fatorialN);
+        System.out.println("soma de positivos " + somaN);
+        imprimir(resultado);
     }
 }

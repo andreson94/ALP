@@ -10,19 +10,19 @@ public class teste{
     static void imprimirNota (double nota){
    
     if (nota >= 6){
-       String s = status(); 
+       String status = s(); 
     }
     else {
-      String s = status();
+      String s = s();
     }
-    System.out.println(status());
+    System.out.println(s());
     }
         public static void main (String [] args){
             imprimirNota(6.7);
-            String status = status();
+            String status = s();
             System.out.println(status);
         
        }
 
     }
-    }
+    

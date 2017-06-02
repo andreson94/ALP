@@ -1,7 +1,7 @@
 package Vetor_Matriz;
 
 import java.util.Scanner;
-public class teste2 {
+public class teste2Vetor {
     static Scanner imput = new Scanner(System.in);
      
     static int entradadeDados (int n){

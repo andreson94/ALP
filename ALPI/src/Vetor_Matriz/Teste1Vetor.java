@@ -3,7 +3,7 @@ package Vetor_Matriz;
 
 import java.util.Scanner;
 
-public class Teste1 {
+public class Teste1Vetor {
     public static void main(String[] args) {
         Scanner imput = new Scanner(System.in);
         int n = 10;

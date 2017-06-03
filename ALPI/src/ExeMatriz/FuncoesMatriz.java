@@ -1,4 +1,4 @@
-package Vetor_Matriz;
+package ExeMatriz;
 
 import java.util.Scanner;
 

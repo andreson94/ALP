@@ -1,4 +1,4 @@
-package ADOII;
+package EstruturaDeDecisao;
 
 import java.util.Scanner;
 public class IMC {

@@ -1,4 +1,4 @@
-package ADOI;
+package EstruturaSequenciais;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-    package ADOII;
+    package EstruturaDeDecisao;
 
 import java.util.Scanner;
 /*Escreva um algoritmo que lê quantos km/l seu carro faz com gasolina e com álcool.

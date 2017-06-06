@@ -1,5 +1,5 @@
 
-package ADOII;
+package EstruturaDeDecisao;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ADOII;
+package EstruturaDeDecisao;
 
 import javax.swing.JOptionPane;
 public class CalendarioSwitch {
